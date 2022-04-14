@@ -1,0 +1,17 @@
+composer:
+  last: Tůma
+  first: František Ignác Antonín
+title: Vesperæ de Confessore
+genre: vesper
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-Dl
+    shelfmark: Mus.2968-D-508
+    date: 1890–1910
+    rism: 1001003498
+    url: http://digital.slub-dresden.de/id484816454
+    license: public domain
+    principal: true
+imslp:
