@@ -99,3 +99,84 @@ DixitSopranoLyrics = \lyricmode {
   men, a --
   men. %50 finis
 }
+
+ConfiteborSoprano = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 4/4 \autoBeamOff \tempoConfitebor
+    R1*4 %5
+    r4 \mvTr h'8\fE^\tutti h h h16 h c8. c16
+    h4 h8 h a4 a8 h
+    c c h h h a a4\trill
+    g r r \mvTr d'\pE^\solo
+    \appoggiatura c16 h8. a16 g4 g8 a16([ h)] c8 c %10
+    h h16 h a8 d \appoggiatura a g4 fis
+    r2 r4 h8 h
+    a8. h16 g8 g fis fis \mvTr a4\fE^\tutti
+    ais8. ais16 ais4 r8 ais ais ais
+    h h h8. h16 ais4 ais8 cis %15
+    d2 h8 h h ais16 ais
+    h4 r r2
+    R1*4 %21
+    r2 r4 \mvTr d\pE^\solo
+    d cis8 d d8. a16 a8 a
+    h a h4 a r
+    cis8 cis16 d e8 d16([ cis)] d([ cis)] d8 r d
+    h e \appoggiatura d cis4 d r %25
+    R1*5 %30
+    \mvTr g,2\fE^\tutti g4 g8 g
+    gis4. gis8 a4 a
+    g8 g16 g g8 fis fis4 fis8 fis
+    fis fis16 fis fis8 fis g8. g16 g4
+    r c2 h8([ a)] %35
+    g4 fis e r
+    r \mvTr h'8\pE^\solo h h e d! c
+    h a16 g h8 cis d e16 h \appoggiatura d8 cis4
+    d r8 a a h16 c d8 c
+    h a16 g c4. h16 c \appoggiatura h8 a8. a16 %40
+    g4 r r2
+    R1
+    r2 r8 \mvTr dis'4\fE^\tutti dis8
+    e e16 e e8 e dis e e([ dis)]
+    e4 r r2 %45
+    h8 c h4 h2\fermata \bar "|." %46 finis
+  }
+}
+
+ConfiteborSopranoLyrics = \lyricmode {
+  Ma -- gna o -- pe -- ra Do -- mi -- %5
+  ni: Ex -- qui -- si -- ta in
+  o -- mnes vo -- lun -- ta -- tes e --
+  ius. Con --
+  fes -- si -- o et ma -- gni -- fi --
+  cen -- ti -- a o -- pus e -- ius. %10
+  Mi -- ra --
+  bi -- li -- um su -- o -- rum, mi --
+  se -- ri -- cors et mi -- se --
+  ra -- tor Do -- mi -- nus. E -- scam
+  de -- dit ti -- men -- ti -- bus %15
+  se.
+
+  Fi -- %21
+  de -- li -- a o -- mni -- a man --
+  da -- ta e -- ius,
+  fa -- cta in ve -- ri -- ta -- te et
+  ae -- qui -- ta -- te. %25
+
+  San -- ctum et ter -- %31
+  ri -- bi -- le, ter --
+  ri -- bi -- le no -- men e -- ius. I --
+  ni -- ti -- um sa -- pi -- en -- ti -- ae
+  ti -- mor %35
+  Do -- mi -- ni.
+  In -- tel -- le -- ctus bo -- nus
+  o -- mni -- bus fa -- ci -- en -- ti -- bus e --
+  um: Lau -- da -- ti -- o e -- ius
+  ma -- net in sae -- cu -- lum sae -- cu -- %40
+  li.
+
+  Et in
+  sae -- cu -- la sae -- cu -- lo -- rum, a --
+  men, %45
+  a -- men, a -- men. %46 finis
+}

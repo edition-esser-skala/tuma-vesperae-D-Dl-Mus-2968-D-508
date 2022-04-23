@@ -48,3 +48,49 @@ DixitViolinoII = {
     a4 r r2\fermata \bar "|." %50 finis
   }
 }
+
+ConfiteborViolinoII = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 4/4 \tempoConfitebor
+    R1
+    r8 dis'-!\mf dis( e) r2
+    r8 dis,-! dis( e) r2
+    R1
+    r4 g8\f g fis g16 g g8 fis %5
+    g4 g8 g g4 fis8 gis
+    a a g g g g g fis
+    g fis'-! fis( g) fis, g16( a) a4\trill
+    g r r2
+    R1*2 %11
+    r2 r4 fis\fE
+    e8. e16 e4 r8 cis cis cis
+    d fis fis e fis4 r
+    r fis8 fis g fis16 e fis8 fis16 fis %15
+    fis4 r r2
+    R1*2
+    r2 r4 r8 a\pE
+    a e fis( d) e gis'-! gis( a) %20
+    a,4 d,8 e fis4 r
+    R1*4 %25
+    r2 r8 eis'-! eis( fis)
+    R1*2
+    r8 dis-!\fE dis( e) r dis,-! dis( e)
+    e e4 dis8 e4 r %30
+    e2 e4 e8 e
+    f16 f f f f f f f e e e e e e e e
+    e e e e e e e e e e e e dis8 dis
+    fis fis fis fis e4 g~
+    g f8 e dis2 %35
+    e4 dis\trill e8 dis'-! dis( e)
+    c e,4 dis8 e4 r
+    R1
+    r8 cis''-!\pE cis( d) d,2
+    d4 r r2 %40
+    R1*2
+    r2 r8 fis,4\fE fis8
+    g g16 g g8 fis fis g fis4
+    e8 dis'-! dis( e) r dis,-! dis( e) %45
+    g fis fis4\trill e2\fermata \bar "|." %46 finis
+  }
+}

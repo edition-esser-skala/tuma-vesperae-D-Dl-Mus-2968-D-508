@@ -105,3 +105,93 @@ DixitTenoreLyrics = \lyricmode {
   men, a --
   men. %50 finis
 }
+
+ConfiteborTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key e \minor \time 4/4 \autoBeamOff \tempoConfitebor
+    \mvTr e4\pE^\solo dis e8 h c h16([ a)]
+    h8. e,16 e8 e a16([ h)] c8 c h16([ a)]
+    g([ fis)] e8 h' gis a8. a16 h8 d
+    c16([ h)] a c h8 a g fis16([ e)] fis4
+    e \mvTr e'8\fE^\tutti e fis e16 e c8. c16 %5
+    d4 d8 d d4 d8 d
+    e e e e d e d4
+    d r r2
+    R1
+    r4 \mvTr d8\pE^\solo d d cis16 cis d8 d %10
+    h c16 d e8 d16 e c8. c16 h4
+    r2 r4 \mvTr d\fE^\tutti
+    e8. e16 e4 r8 cis cis cis
+    d d h8. h16 cis4 fis,8 ais
+    h2 h8 h cis cis16 cis %15
+    h4 r r2
+    r8 \mvTr h\pE^\solo h h ais8. h16 cis8 cis
+    d16([ cis)] d8 r4 h4. e16 d
+    cis8 d16 d d8([ cis)] d4 r
+    R1*5 %24
+    r8 h e, a a a ais h16([ cis)] %25
+    d8 cis16 d h4 ais8 r r fis'
+    dis dis dis cis16([ dis)] e8 h e16([ d)] c([ h)]
+    c8 c c h16([ a)] g([ fis)] g([ a)] fis4
+    e r r2
+    R1 %30
+    \mvTr h'2\fE^\tutti h4 h8 h
+    h4. h8 c4 c
+    cis8 cis16 cis cis8 cis h4 h8 h
+    h h16 h h8 h h8. h16 h4
+    r a8([ g] fis!4) g8([ a)] %35
+    h4. h8 h4 r
+    R1*3
+    r2 r4 \mvTr d8\pE^\solo c16 d %40
+    h8 a16 g c8. c16 h4 h8 h
+    a a h h c8. c16 h8 h
+    h h h([ a)] h \mvTr h4\fE^\tutti h8
+    h h16 h c8 c h h h4
+    h r r2 %45
+    e8 e e([ dis)] e2\fermata \bar "|." %46 finis
+  }
+}
+
+ConfiteborTenoreLyrics = \lyricmode {
+  Con -- fi -- te -- bor ti -- bi,
+  Do -- mi -- ne, in to -- to cor -- de
+  me -- o, in con -- si -- li -- o iu --
+  sto -- rum, et con -- gre -- ga -- ti -- o --
+  ne. Ma -- gna o -- pe -- ra Do -- mi -- %5
+  ni: Ex -- qui -- si -- ta in
+  o -- mnes vo -- lun -- ta -- tes e --
+  ius.
+
+  Et iu -- sti -- ti -- a e -- ius %10
+  ma -- net in sae -- cu -- lum sae -- cu -- li.
+  Mi --
+  se -- ri -- cors et mi -- se --
+  ra -- tor Do -- mi -- nus. E -- scam
+  de -- dit ti -- men -- ti -- bus %15
+  se.
+  Vir -- tu -- tem o -- pe -- rum su --
+  o -- rum po -- pu -- lo,
+  po -- pu -- lo su -- o.
+
+  Re -- dem -- pti -- o -- nem mi -- sit %25
+  po -- pu -- lo su -- o; man --
+  da -- vit in ae -- ter -- num te -- sta --
+  men -- tum, te -- sta -- men -- tum su --
+  um.
+  %30
+  San -- ctum et ter --
+  ri -- bi -- le, ter --
+  ri -- bi -- le no -- men e -- ius. I --
+  ni -- ti -- um sa -- pi -- en -- ti -- ae
+  ti -- mor %35
+  Do -- mi -- ni.
+
+  Glo -- ri -- a %40
+  Pa -- tri et Fi -- li -- o, si -- cut
+  e -- rat in prin -- ci -- pi -- o et
+  nunc et sem -- per, et in
+  sae -- cu -- la sae -- cu -- lo -- rum, a --
+  men, %45
+  a -- men, a -- men. %46 finis
+}

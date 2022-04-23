@@ -91,3 +91,74 @@ DixitBassoLyrics = \lyricmode {
   men, a --
   men. %50 finis
 }
+
+ConfiteborBasso = {
+  \relative c {
+    \clef bass
+    \key e \minor \time 4/4 \autoBeamOff \tempoConfitebor
+    R1*3
+    r2 r4 \mvTr h'8\fE^\tuttiE h
+    h8. e,16 e4 dis8 e16 e a,8. a16 %5
+    g4 g8 g d'4 d8 c16([ h)]
+    a8 a e' d16([ c)] h8 c d4
+    g, r r2
+    R1*3 %11
+    r2 r4 \mvTr d'\fE^\tutti
+    cis8. cis16 cis4 r8 fis fis e
+    d h g8. g16 fis4 r
+    r h8 d e fis16 g fis8 fis,16 fis %15
+    h4 r r2
+    R1*2
+    r4 \mvTr a'8\pE^\solo a fis d16 e fis8 g
+    a a a gis a4 e8 e16 e %20
+    fis8 e16([ d)] g8 g fis e16 d h'8 g
+    a4. a8 d,4 r
+    R1*8 %30
+    \mvTr e2\fE^\tutti e4 e8 e
+    d4. d8 c4 c
+    ais8 ais16 ais ais8 ais h4 h8 h
+    dis dis16 dis dis8 dis e8. e16 e4
+    a,2 h %35
+    h4. h8 e,4 r
+    R1*4 %40
+    r2 r4 \mvTr g8\pE^\solo g
+    d' d d c16([ h)] a8. a16 e'8 dis
+    e d c4 h8 \mvTr h4\fE^\tutti h8
+    e e16 e c8 a h e h4
+    e, r r2 %45
+    g8 a h4 e,2\fermata \bar "|." %46 finis
+  }
+}
+
+ConfiteborBassoLyrics = \lyricmode {
+  Ma -- gna %4
+  o -- pe -- ra, o -- pe -- ra Do -- mi -- %5
+  ni: Ex -- qui -- si -- ta in
+  o -- mnes vo -- lun -- ta -- tes e --
+  ius.
+
+  Mi -- %12
+  se -- ri -- cors et mi -- se --
+  ra -- tor Do -- mi -- nus.
+  E -- scam de -- dit ti -- men -- ti -- bus %15
+  se.
+
+  Ut det il -- lis hae -- re -- di -- %19
+  ta -- tem gen -- ti -- um. O -- pe -- ra %20
+  ma -- num e -- ius ve -- ri -- tas et iu --
+  di -- ci -- um.
+
+  San -- ctum et ter -- %31
+  ri -- bi -- le, ter --
+  ri -- bi -- le no -- men e -- ius. I --
+  ni -- ti -- um sa -- pi -- en -- ti -- ae
+  ti -- mor %35
+  Do -- mi -- ni.
+
+  Si -- cut %41
+  e -- rat in prin -- ci -- pi -- o et
+  nunc et sem -- per, et in
+  sae -- cu -- la sae -- cu -- lo -- rum, a --
+  men, %45
+  a -- men, a -- men. %46 finis
+}
