@@ -359,3 +359,198 @@ LaudatePueriTenoreLyrics = \lyricmode {
   men,
   a -- men, a -- men. %35 finis
 }
+
+LaudateDominumTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \dorian \time 2/2 \autoBeamOff \tempoLaudateDominum
+    R1*4
+    \mvTr a1\fE^\tuttiE %5
+    a4( g a) h
+    c2 a
+    h2. h4
+    a2 \once \tieDashed a~
+    a f %10
+    e1
+    f
+    e2 \once \tieDashed a~
+    a \once \tieDashed g~
+    g f %15
+    e1
+    a2. a4
+    a2 f~
+    f g
+    a g4 f %20
+    g2.^\critnote a8[ h]
+    c1~
+    \once \tieDashed c~
+    c4 b a g
+    f b a g %25
+    f g a b
+    c2 c~
+    c c
+    c c
+    f, f %30
+    f d'
+    d1
+    d
+    \once \tieDashed c~
+    \once \tieDashed c~^\critnote %35
+    c
+    c
+    r2 d
+    c b4 a
+    a2. b4 %40
+    c1
+    d2 c
+    c a
+    a f
+    b1 %45
+    b
+    e,2 a
+    a1
+    a~
+    a %50
+    b
+    b2 b
+    a1
+    a2 a
+    b2. b4 %55
+    c1
+    c2 c
+    d d4 d
+    g,2 \once \tieDashed c~
+    c1 %60
+    c
+    R1*4 %65
+    d2. d4
+    c2 h
+    c a
+    h2. h4
+    a a c d %70
+    e d h cis
+    d a d2~
+    d cis
+    d a
+    a e' %75
+    c f
+    e1
+    e
+    R
+    a,2 a %80
+    e' e4 e
+    d2. d4
+    c2 c
+    c d
+    d( cis) %85
+    d1
+    R1*2
+    r2 e~
+    e4 d c h %90
+    a2 d~
+    d4 c b a
+    g2 c~
+    c4 b a g
+    f2. g8[ a] %95
+    b1
+    e,2 \once \tieDashed e'~
+    e4 a, d2~
+    d cis4 h
+    cis1 %100
+    d\breve*1/2\fermata \bar "|." %101 finis
+  }
+}
+
+LaudateDominumTenoreLyrics = \lyricmode {
+  Lau -- %5
+  da -- te
+  Do -- _
+  _ mi --
+  num, o --
+  mnes %10
+  gen --
+  _
+  _ _
+  _
+  _ %15
+  tes.
+  Quo -- ni --
+  am con --
+  fir --
+  ma -- _ _ %20
+  _ _
+  _
+
+  _ _ _
+  _ _ _ _ %25
+  _ _ _ ta
+  est su --
+  per
+  nos mi --
+  se -- ri -- %30
+  cor -- di --
+  a
+  e --
+  _
+
+  ius, %37
+  et
+  ve -- ri -- tas
+  Do -- mi -- %40
+  ni
+  ma -- net,
+  ma -- net
+  in ae --
+  ter -- num, %45
+  in ae --
+  ter --
+  num. __
+  %50
+  Glo --
+  ri -- a
+  Pa --
+  tri et
+  Fi -- li -- %55
+  o
+  et Spi --
+  ri -- tu -- i
+  San -- _
+  %60
+  cto,
+
+  si -- cut %66
+  e -- rat
+  in prin --
+  ci -- pi --
+  o et nunc et %70
+  sem -- _ _ _
+  _ _ _
+  _
+  per, et
+  nunc et %75
+  sem -- _
+  _
+  per
+
+  et in %80
+  sae -- cu -- la
+  sae -- cu --
+  lo -- rum,
+  a -- men,
+  a -- %85
+  men,
+
+  a -- %89
+  _ _ _ %90
+  _ _
+  _ _ _
+  _ _
+  _ _ _
+  men, a -- %95
+  _
+  men, a --
+  _ _
+  _ _
+  _ %100
+  men. %101 finis
+}

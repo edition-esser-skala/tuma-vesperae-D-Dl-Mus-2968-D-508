@@ -171,3 +171,95 @@ LaudatePueriViolinoII = {
     a8 a' a gis a4 r\fermata \bar "|." %35 finis
   }
 }
+
+LaudateDominumViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 2/2 \tempoLaudateDominum
+    R1*7 %7
+    d1\fE
+    d4 c d e
+    f2 d %10
+    e2. e4
+    d2 f
+    g e
+    d1~
+    d %15
+    \once \tieDashed e~
+    e
+    f2 \once \tieDashed f~
+    f2. e8 d
+    c2 \once \tieDashed c~ %20
+    c d
+    e4 a g f
+    e a g f
+    e f g2
+    \once \tieDashed f1~ %25
+    \once \tieDashed f~
+    f2 f
+    e \once \tieDashed e~
+    e e
+    f r %30
+    r fis
+    fis fis
+    \once \tieDashed g1~
+    g2 f!
+    e f~ %35
+    f e
+    f1
+    R
+    r2 a
+    f e4 d %40
+    e1
+    f2 g
+    f1
+    R
+    r2 \once \tieDashed g~ %45
+    g g
+    g f
+    e1
+    d~
+    d %50
+    f
+    f2 f
+    f1
+    f2 f
+    f e %55
+    f1
+    f2 f
+    f1
+    e2 \once \tieDashed f~
+    f e %60
+    f1
+    R1*8 %69
+    a2. a4 %70
+    g2 e
+    f d
+    e1
+    f4 d f g
+    a e fis gis %75
+    a e a2~
+    a gis
+    a1
+    R1*4 %82
+    e2 e
+    a a4 a
+    g2. g4 %85
+    f1
+    f2 a
+    gis a
+    e1
+    e2 \once \tieDashed a~ %90
+    a4 g f e
+    d2 \once \tieDashed g~
+    g4 f e d
+    c2 f~
+    f4 e d e8 f %95
+    g4 f e d
+    cis2. d8 e
+    f2 e4 d
+    \once \tieDashed e1~
+    e %100
+    d\breve*1/2\fermata \bar "|." %101 finis
+  }
+}

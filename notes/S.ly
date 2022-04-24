@@ -331,3 +331,166 @@ LaudatePueriSopranoLyrics = \lyricmode {
   men,
   a -- men, a -- men. %35 finis
 }
+
+LaudateDominumSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 2/2 \autoBeamOff \tempoLaudateDominum
+    R1*10 %10
+    \mvTr a'1\fE^\tuttiE
+    a4 g a h
+    c2 a
+    h2. h4
+    a2 d %15
+    d cis4 h
+    cis2. cis4
+    d2 a~
+    a a
+    a a~ %20
+    a h
+    \once \tieDashed c1~
+    c~
+    c
+    a4 d c b %25
+    a d c b
+    a b c( a)
+    g2 g~
+    g g
+    a c %30
+    c c
+    c2. c4
+    b1~
+    b2 a
+    g a %35
+    g1
+    a
+    R1*2
+    r2 d %40
+    c h4 a
+    b2. b4
+    a1
+    R
+    r2 d~ %45
+    d e
+    cis d
+    d( cis)
+    d1~
+    d %50
+    d
+    d2 d
+    c1
+    c2 c
+    b2. b4 %55
+    a1
+    a2 a
+    b b4 b
+    b2 a
+    g1 %60
+    f
+    R1*12 %73
+    d'2. d4
+    c2 h %75
+    c a
+    h2. h4
+    c a c d
+    e d h cis
+    d2. d4 %80
+    g,2( a)
+    a1
+    R1*3 %85
+    a2 a
+    d d4 d
+    c2 c
+    h1
+    c %90
+    d2. c4
+    b a g2
+    c2. b4
+    a g f2
+    \once \tieDashed b1~ %95
+    b4 a g f
+    e2. f8[ g]
+    \once \tieDashed a1~
+    \once \tieDashed a~
+    a %100
+    a\breve*1/2\fermata \bar "|." %101 finis
+  }
+}
+
+LaudateDominumSopranoLyrics = \lyricmode {
+  Lau -- %11
+  da -- _ _ _
+  _ te
+  e -- um,
+  o -- mnes %15
+  po -- _ _
+  _ pu --
+  li. Quo --
+  ni --
+  am con -- %20
+  fir --
+  ma --
+
+  _ _ _ _ %25
+  _ _ _ _
+  _ _ ta __
+  est su --
+  per
+  nos mi -- %30
+  se -- ri --
+  cor -- di --
+  a __
+  e --
+  _ _ %35
+  _
+  ius,
+
+  et %40
+  ve -- ri -- tas
+  Do -- mi --
+  ni
+
+  ma -- %45
+  net
+  in ae --
+  ter --
+  num. __
+  %50
+  Glo --
+  ri -- a
+  Pa --
+  tri et
+  Fi -- li -- %55
+  o
+  et Spi --
+  ri -- tu -- i
+  San -- _
+  _ %60
+  cto,
+
+  si -- cut %74
+  e -- rat %75
+  in prin --
+  ci -- pi --
+  o et nunc et
+  sem -- _ _ _
+  _ per, %80
+  sem --
+  per
+
+  et in %86
+  sae -- cu -- la
+  sae -- cu --
+  lo --
+  rum, %90
+  a -- _
+  _ _ _
+  _ _
+  _ _ _
+  _ %95
+  _ _ _
+  _ _
+  _
+
+  men. %101 finis
+}

@@ -331,3 +331,182 @@ LaudatePueriAltoLyrics = \lyricmode {
   men,
   a -- men, a -- men. %35 finis
 }
+
+LaudateDominumAlto = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 2/2 \autoBeamOff \tempoLaudateDominum
+    R1*7 %7
+    \mvTr d1\fE^\tuttiE
+    d4 c d e
+    f2 d %10
+    e2.^\critnote e4
+    d2 f(
+    g) e
+    d1
+    d %15
+    e~
+    e2 e
+    f f~
+    f2. e8[ d]
+    c2 \once \tieDashed c~ %20
+    c d
+    e4 a g f
+    e a g f
+    e f g2
+    f1~ %25
+    f~
+    f2 f
+    e e~
+    e e
+    f r %30
+    r fis
+    fis fis
+    g1~
+    g2 f!4 f
+    e2 \once \tieDashed f~ %35
+    f e
+    f1
+    R
+    r2 a
+    f e4 d %40
+    e2 e4 e
+    f2( g)
+    f1
+    R
+    r2 g~ %45
+    g g
+    g f
+    e1
+    d~
+    d %50
+    f
+    f2 f
+    f1
+    f2 f
+    f e %55
+    f1
+    f2 f
+    f f4 f
+    e2 f~
+    f e %60
+    f1
+    R1*8 %69
+    a2. a4 %70
+    g2 e
+    f d
+    e2. e4
+    f d f g
+    a e fis gis %75
+    a e a2~
+    a gis
+    a1
+    R1*4 %82
+    e2 e
+    a a4 a
+    g2. g4 %85
+    f2 f
+    f a
+    gis a
+    e1
+    e2 \once \tieDashed a~ %90
+    a4 g f e
+    d2 g~
+    g4 f e d
+    c2 f~
+    f4 e d e8[ f] %95
+    g4 f e d
+    cis2. d8[ e]
+    f2 e4 d
+    e1~
+    e %100
+    d\breve*1/2\fermata \bar "|." %101 finis
+  }
+}
+
+LaudateDominumAltoLyrics = \lyricmode {
+  Lau -- %8
+  da -- _ _ _
+  _ te %10
+  Do -- mi --
+  num, o --
+  mnes
+  gen --
+  \xE tes, %15
+  po --
+  pu --
+  li. \x Quo --
+  ni --
+  am con -- %20
+  fir --
+  ma -- _ _ _
+  _ _ _ _
+  _ _ _
+  _ %25
+
+  ta
+  est su --
+  per
+  nos %30
+  mi --
+  se -- ri --
+  cor --
+  di -- a
+  e -- _ %35
+  _
+  ius,
+
+  et
+  ve -- ri -- tas %40
+  Do -- mi -- ni
+  ma --
+  net
+
+  in __ %45
+  ae --
+  ter -- _
+  _
+  num. __
+  %50
+  Glo --
+  ri -- a
+  Pa --
+  tri et
+  Fi -- li -- %55
+  o
+  et Spi --
+  ri -- tu -- i
+  San -- _
+  _ %60
+  cto,
+
+  si -- cut %70
+  e -- rat
+  in prin --
+  ci -- pi --
+  o et nunc et
+  sem -- _ _ _ %75
+  _ _ _
+  _
+  per
+
+  et in %83
+  sae -- cu -- la
+  sae -- cu -- %85
+  lo -- rum,
+  a -- men,
+  a -- men,
+  a --
+  men, a -- %90
+  _ _ _
+  _ _
+  _ _ _
+  men, a --
+  _ _ _ %95
+  _ _ _ _
+  _ _
+  _ _ _
+  _
+  %100
+  men. %101 finis
+}

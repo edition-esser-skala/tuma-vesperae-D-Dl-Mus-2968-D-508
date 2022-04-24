@@ -308,3 +308,207 @@ LaudatePueriBassoLyrics = \lyricmode {
   men,
   a -- men, a -- men. %35 finis
 }
+
+LaudateDominumBasso = {
+  \relative c {
+    \clef bass
+    \key d \dorian \time 2/2 \autoBeamOff \tempoLaudateDominum
+    \mvTr d1\fE^\tuttiE
+    d4 c d e
+    f2 d
+    e2. e4
+    d2 d~ %5
+    d c4( h)
+    a2 a'~
+    a g
+    f2. e4
+    d1~ %10
+    d2 cis
+    d1
+    R1*3 %15
+    a1~
+    a2 a
+    d d~
+    d e
+    f1~ %20
+    f2 e4 d
+    c f e d
+    c f e d
+    c d e c
+    f1~ %25
+    f~
+    f2 f
+    c c~
+    c b
+    a r %30
+    r d
+    d d
+    g2. f4
+    e2 f4 f
+    c1~ %35
+    \once \tieDashed c2~ c
+    f, a'
+    f e4 d
+    e2 f
+    d1 %40
+    a2 a
+    d( e)
+    f2 f~
+    f d
+    g1 %45
+    g,
+    a
+    a
+    d~
+    d %50
+    b
+    b2 b
+    f'1
+    f2 f
+    g2. g4 %55
+    f1
+    f2 f
+    d b4 b
+    c1~
+    c %60
+    f,
+    a'2. a4
+    g2 e
+    f d
+    e2. e4 %65
+    d d f g
+    a e fis gis
+    a e a2~
+    a \once \tieDashed g!~
+    g f %70
+    e1
+    d2 f
+    g( a)
+    d,1
+    R1*2 %76
+    e2 e
+    a a4 a
+    g!2. g4
+    f2 d %80
+    d cis
+    d4 e f g
+    a a, a' g
+    f1
+    e %85
+    d~
+    d2 f
+    e a
+    a gis
+    a2. g4 %90
+    f e d2
+    g2. f4
+    e d c2
+    f2. e4
+    d c b a %95
+    g1
+    \tieDashed a~
+    a~
+    a~
+    a \tieSolid %100
+    d\breve*1/2\fermata \bar "|." %101 finis
+  }
+}
+
+LaudateDominumBassoLyrics = \lyricmode {
+  Lau --
+  da -- _ _ _
+  _ te
+  Do -- mi --
+  num, o -- %5
+  mnes
+  gen -- _
+  _
+  _ _
+  _ %10
+  _
+  tes.
+
+  Quo -- %16
+  ni --
+  am con --
+  fir --
+  ma -- %20
+  _ _
+  _ _ _ _
+  _ _ _ _
+  _ _ _ _
+  _ %25
+
+  ta
+  est su --
+  per
+  nos %30
+  mi --
+  se -- ri --
+  cor -- _
+  _ di -- a
+  e -- %35
+
+  ius, et
+  ve -- ri -- tas
+  Do -- mi --
+  ni %40
+  ma -- net,
+  ma --
+  net in __
+  ae --
+  ter -- %45
+  num,
+  ae --
+  ter --
+  num. __
+  %50
+  Glo --
+  ri -- a
+  Pa --
+  tri et
+  Fi -- li -- %55
+  o
+  et Spi --
+  ri -- tu -- i
+  San --
+  %60
+  cto,
+  si -- cut
+  e -- rat
+  in prin --
+  ci -- pi -- %65
+  o et nunc et
+  sem -- _ _ _
+  _ _ _
+  _
+  _ %70
+  _
+  per, et
+  sem --
+  per
+
+  et in %77
+  sae -- cu -- la
+  sae -- cu --
+  lo -- rum, %80
+  a -- men,
+  a -- _ _ _
+  _ _ _ _
+  _
+  men, %85
+  sae --
+  cu --
+  lo -- rum,
+  a -- _
+  _ _ %90
+  _ _ _
+  _ _
+  _ _ _
+  _ _
+  _ _ _ _ %95
+  _
+  _
+
+  men. %101 finis
+}

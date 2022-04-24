@@ -10,6 +10,7 @@ tempoDixit = \tempoMarkup "Moderato"
 tempoConfitebor = \tempoMarkup "Moderato"
 tempoBeatus = \tempoMarkup "Moderato"
 tempoLaudatePueri = \tempoMarkup "[Tempo deest]"
+tempoLaudateDominum = \tempoMarkup "Alla breve"
 
 
 \include "notes/vl1.ly"
