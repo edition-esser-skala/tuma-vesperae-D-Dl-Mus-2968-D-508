@@ -291,3 +291,71 @@ BeatusTenoreLyrics = \lyricmode {
   %45
   a -- men, a -- men. %46 finis
 }
+
+LaudatePueriTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \minor \time 4/4 \autoBeamOff \tempoLaudatePueri
+    r8 \mvTr e\pE^\solo c a h a16 h c8. c16
+    h8 e c a r4 \once \tieDashed d~
+    d8 c16([ d)] h8. h16 a4 r
+    R1*4 %7
+    r2 r4 r8 g
+    g a16([ h)] c([ d)] e([ f)] g8 d e d16([ c)]
+    d8. g,16 g4 r8 d' d e16([ d)] %10
+    c8 a f' e16 d e8 a,16 h gis4
+    a r r \mvTr a\fE^\tutti
+    r h c8 h a a16 a
+    h8 h c4 h r
+    r h8 h c c d8. d16 %15
+    e4 e,8 e e4 e8 e
+    e4. a8 a4 a
+    g8 g g g g2
+    g4 r r2
+    R1*4 %23
+    r4 r8 \mvTr h\pE^\solo h a16([ g)] c8 h16([ a)]
+    h8 e, h' c16([ d)] e8 e e([ d)] %25
+    e4 r8 d c h16 a h4
+    a r r2
+    r4 h8 h a a h h
+    a8. a16 gis8 h c h a4
+    h r r2 %30
+    R1
+    r4 \mvTr e8\fE^\tuttiE e e d16 d c8 c
+    h e, c' c h2
+    a4 r r2
+    e'8 f e4 e r\fermata \bar "|." %35 finis
+  }
+}
+
+LaudatePueriTenoreLyrics = \lyricmode {
+  Lau -- da -- te pu -- e -- ri Do -- mi --
+  num: Lau -- da -- te no --
+  men Do -- mi -- ni.
+
+  Ex -- %8
+  cel -- sus su -- per o -- mnes gen -- tes
+  Do -- mi -- nus, et su -- per %10
+  coe -- los glo -- ri -- a, glo -- ri -- a e --
+  ius. Quis,
+  quis si -- cut Do -- mi -- nus
+  De -- us no -- ster,
+  qui in al -- tis ha -- bi -- %15
+  tat, et hu -- mi -- li -- a
+  re -- spi -- cit in
+  coe -- lo et in ter --
+  ra?
+
+  Qui ha -- bi -- ta -- re %24
+  fa -- cit ste -- ri -- lem in do -- %25
+  mo, lae -- tan -- tem, lae -- tan --
+  tem.
+  Si -- cut e -- rat in prin --
+  ci -- pi -- o et nunc et sem --
+  per %30
+
+  et in sae -- cu -- la sae -- cu --
+  lo -- rum, a -- men, a --
+  men,
+  a -- men, a -- men. %35 finis
+}

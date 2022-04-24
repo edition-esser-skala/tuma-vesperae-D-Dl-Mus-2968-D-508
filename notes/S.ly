@@ -268,3 +268,66 @@ BeatusSopranoLyrics = \lyricmode {
   %45
   a -- men, a -- men. %46 finis
 }
+
+LaudatePueriSoprano = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoLaudatePueri
+    R1*2
+    r4 r8 \mvTr h'\pE^\solo c h16([ c)] d8 c16 h
+    c8 h c4 h r
+    e8 c d e f e16 d \appoggiatura c h8. h16 %5
+    a4 r r2
+    R1*5 %11
+    r2 r4 \mvTr c\fE^\tutti
+    r h a8 gis a a16 a
+    gis8 h a4 gis e8 e
+    e'2 c4 c8 h %15
+    c4 g8 g g4 g8 g
+    g4. g8 f4 a
+    h8 h c e, d2
+    c4 r r2
+    r r4 \mvTr a'8\pE^\solo h %20
+    c d16 e d8 c16 h c8. c16 h4
+    r fis8 h g a16 h c8 a16 a
+    a8 g16 a \appoggiatura g8 fis4 e r
+    R1*4 %27
+    e'8 f16 e d8 c16 h c8. c16 h4
+    R1
+    r2 r4 \mvTr e8\fE^\tutti e %30
+    e d16 d c8 c h e,^\critnote a4(
+    gis8[ a16 h] c8) h c[( a16 h] c8[ h16 a])
+    gis4 a8 a a4( gis)
+    a r r2
+    c8 h h4 a r\fermata \bar "|." %35 finis
+  }
+}
+
+LaudatePueriSopranoLyrics = \lyricmode {
+  Sit no -- men Do -- mi -- ni %3
+  be -- ne -- di -- ctum,
+  ex hoc nunc et us -- que in sae -- cu -- %5
+  lum.
+
+  Quis, %12
+  quis si -- cut Do -- mi -- nus
+  De -- us no -- ster, qui in
+  al -- tis ha -- bi -- %15
+  tat, et hu -- mi -- li -- a
+  re -- spi -- cit in
+  coe -- lo et in ter --
+  ra?
+  Et de %20
+  ster -- co -- re e -- ri -- gens pau -- pe -- rem.
+  Cum prin -- ci -- pi -- bus po -- pu -- li,
+  po -- pu -- li su -- i.
+
+  Glo -- ri -- a Pa -- tri et Fi -- li -- o, %28
+
+  et in %30
+  sae -- cu -- la sae -- cu -- lo -- rum, a --
+  men, a --
+  men, a -- men, a --
+  men,
+  a -- men, a -- men. %35 finis
+}

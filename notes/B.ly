@@ -246,3 +246,65 @@ BeatusBassoLyrics = \lyricmode {
   %45
   a -- men, a -- men. %46 finis
 }
+
+LaudatePueriBasso = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4 \autoBeamOff \tempoLaudatePueri
+    r4 r8 \mvTr a'\pE^\solo gis e a8. a16
+    gis8 r r a f d r a'(
+    gis) a e8. e16 a,4 r
+    R1
+    r2 r4 r8 e' %5
+    c16([ a h c] d[ e)] fis([ gis)] a4 a
+    a8 a e fis g4 g,
+    r8 d' g f16 g e8 c g'8. g16
+    c,4 r r2
+    R1*2 %11
+    r2 r4 \mvTr a'\fE^\tutti
+    r gis a8 e f f16 f
+    e8 gis a4 e r
+    r e8 e a f d8. d16 %15
+    c4 c8 c b4 b8 b
+    a4. a8 d4 d
+    g8 g e c g2
+    c4 r r2
+    R1*9 %28
+    r4 r8 \mvTr e\pE^\solo a g f4
+    e r r2 %30
+    r4 \mvTr a8\fE^\tutti a a g!16 g f8 f
+    e a, r gis' a fis16 gis a8 a,
+    e' e a, c d4( e)
+    a, r r2
+    c8 d e4 a, r\fermata \bar "|." %35 finis
+  }
+}
+
+LaudatePueriBassoLyrics = \lyricmode {
+  Lau -- da -- te Do -- mi --
+  num: Lau -- da -- te no --
+  men Do -- mi -- ni.
+
+  A %5
+  so -- lis or -- tu
+  us -- que ad oc -- ca -- sum
+  lau -- da -- bi -- le no -- men Do -- mi --
+  ni.
+
+  Quis, %13
+  quis si -- cut Do -- mi -- nus
+  De -- us no -- ster,
+  qui in al -- tis ha -- bi -- %15
+  tat, et hu -- mi -- li -- a
+  re -- spi -- cit in
+  coe -- lo et in ter --
+  ra?
+
+  Et nunc et sem -- %29
+  per %30
+  et in sae -- cu -- la sae -- cu --
+  lo -- rum, \xE in sae -- cu -- la \x sae -- cu --
+  lo -- rum, \xE a -- men, \x a --
+  men,
+  a -- men, a -- men. %35 finis
+}

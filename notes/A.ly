@@ -262,3 +262,72 @@ BeatusAltoLyrics = \lyricmode {
   %45
   a -- men, a -- men. %46 finis
 }
+
+LaudatePueriAlto = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoLaudatePueri
+    R1*2
+    r4 r8 \mvTr gis'\pE^\solo a gis16([ a)] h8 a16 gis
+    a8 gis a a gis e fis gis
+    a4 a8 a a h16 a gis8. gis16 %5
+    a4 r r2
+    R1*5 %11
+    r2 r4 \mvTr e\fE^\tutti
+    r e e8 e e d16 d
+    e8 e e4 e r
+    r gis8 gis a a f8. f16 %15
+    g4 e8 c c4 c8 c
+    cis4. cis8 d4 f^\critnote
+    d8 d c c c4( h)
+    c r r2
+    \mvTr g'8.\pE^\solo g16 f8 g e c f8. f16 %20
+    e4 r8 g g fis16 fis g8 g
+    fis e dis8. dis16 e4 e8([ fis16 e]
+    dis8) e16 e e8([ dis)] e4 r
+    R1
+    r2 r4 a8 a %25
+    a gis16([ a)] h4 e,8 a a([ gis)]
+    a4 r r2
+    r4 e8 e e4 e8 e
+    e([ d)] e4 r \mvTr a8\fE^\tutti a
+    a g!16 g f8 f e a, r gis'( %30
+    a[ fis16 gis] a8[ e]) e4 e8([ d)]
+    e4 gis8 gis e fis e4
+    e e8 e f4( e)
+    e r r2
+    a8 a a([ gis)] a4 r\fermata \bar "|." %35 finis
+  }
+}
+
+LaudatePueriAltoLyrics = \lyricmode {
+  Sit no -- men Do -- mi -- ni %3
+  be -- ne -- di -- ctum, ex hoc nunc et
+  us -- que, et us -- que in sae -- cu -- %5
+  lum.
+
+  Quis, %12
+  quis si -- cut Do -- mi -- nus
+  De -- us no -- ster,
+  qui in al -- tis ha -- bi -- %15
+  tat, et hu -- mi -- li -- a
+  re -- spi -- cit in
+  coe -- lo et in ter --
+  ra?
+  Su -- sci -- tans a ter -- ra in -- o -- %20
+  pem. Ut col -- lo -- cet e -- um
+  cum prin -- ci -- pi -- bus, po --
+  pu -- li su -- i.
+
+  Ma -- trem %25
+  fi -- li -- o -- rum lae -- tan --
+  tem.
+  Et Spi -- ri -- tu -- i
+  San -- cto, et in
+  sae -- cu -- la sae -- cu -- lo -- rum, a -- %30
+  men, a --
+  men, a -- men, a -- men, a --
+  men, a -- men, a --
+  men,
+  a -- men, a -- men. %35 finis
+}

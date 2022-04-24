@@ -136,3 +136,38 @@ BeatusViolinoII = {
     h g c e, d c' d, h' c,4 r\fermata \bar "|." %46 finis
   }
 }
+
+LaudatePueriViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoLaudatePueri
+    R1*5 %5
+    c'2\pE c16 c d e fis gis a a
+    a,4 r r16 g' fis e d c h a
+    g4 r8 d e4 d
+    c r r2
+    r16 g' a h c d e fis g4 r %10
+    R1
+    r16 a,\fE h c d e fis gis a4 r
+    gis r e4. d8
+    e h c h16 a gis4 e8 e
+    e'2~ e8 f f4\trillE %15
+    e r r2
+    R1*2
+    r16 c h a g f e d c8 c4 h8
+    c4 r r2 %20
+    R1*2
+    r2 r16 e'\fE dis c!16 h a g fis
+    e8 g fis4\trill e r
+    R1*2 %26
+    r16 a'\fE gis f! e d c h a8 a4 gis8
+    a4 r r2
+    r r4 a8\fE a
+    a g!16 g f8 f e a, r gis' %30
+    a fis16 gis a8 e e4. d8
+    e4 gis8 gis e fis e4
+    e4. e8 f4 e
+    e16 a' gis f! e d c h a a gis f! e d c h
+    a8 a' a gis a4 r\fermata \bar "|." %35 finis
+  }
+}

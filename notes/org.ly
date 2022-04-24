@@ -313,3 +313,88 @@ BeatusBassFigures = \figuremode {
   r4 <4>8 <_+> r4. <[6]>8 %45
   r <6> <6 5>2. %46 finis
 }
+
+LaudatePueriOrgano = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4 \tempoLaudatePueri
+    \mvTr a4\pE-\solo r8 a' gis e a a,
+    e'4 a d, f8 d
+    e a, e' e, a4 d8 e
+    a, e' a dis, e4 d
+    c4. c8 d4 e8 e, %5
+    a2 a4 r
+    a c8 a g!4 r
+    g h c g'8 g,
+    c4 r h c8 a
+    g4 r g' gis %10
+    a d,8 g c, d e e,
+    a4 r r \mvTr a'\fE^\tutti
+    r gis a8 e f4
+    e8 gis a4 e r
+    r e8 e a f d8. d16 %15
+    c4 c8 c b4 b8 b
+    a4. a8 d4 d
+    g e8 c g2
+    c4 r e-\solo f8 g
+    c,4 a8\pE h c4 d %20
+    c h a g
+    a h c r
+    h8 e h' h, e4 r8 dis\fE
+    e c a h e4 a8\pE fis
+    g4 r gis8 a f4 %25
+    e gis, a e'8 e,
+    a4 r a8\fE f' d e
+    a4 gis\pE a g
+    f e8 gis a g f4
+    e \clef treble << {
+      r r e''8 e %30
+      e d16 d
+    } \\ {
+      f,8 f e a, r gis'
+      a fis16 gis
+    } >> \clef bass a,8 a a g! f4
+    e8 a, r gis' a fis16 gis a8 a,
+    e'4 a,8 c d4 e
+    a, r r2
+    c8 d e4 a, r\fermata \bar "|." %35 finis
+  }
+}
+
+LaudatePueriBassFigures = \figuremode {
+  r2 <6>8 <[_+]>4.
+  <_+>2 <5>4 <6>
+  <7 _+> <5 4>8 <\t _+> r4 <6>8 <_+>
+  r q4 <7 5 _+>8 <_+>4 <4+ 2>
+  <6>2 <5>8 <6> <_+>4 %5
+  r1
+  r4. <6\\>8 r2
+  r4 <6> <9>8 <8> <5 4> <\t 3>
+  r2 <[6]>4. <6\\>8
+  r2. <5>8 <6> %10
+  r2. <[_+]>4
+  r1
+  r4 <6>4. <_+>8 <7> <6>
+  <[_+]> <6>4. <_+>2
+  r4 <_+>2 <7>8 <6> %15
+  <[5!]>2 <2>
+  <7 _+>2 <_!>
+  r4 <6> <5 4> <\t 3>
+  r2 <6!>4 <6 5>
+  r <6>8 q r4 <5>8 <6> %20
+  r4 <6> <7>8 <6\\>4.
+  <6\\>8 <5> <[5+] _+>2.
+  <7 [5+] _+>4 \bo <[6] 4>8 \bc <[5+] _+>2 <6 [_+]>8
+  r4 <6\\ 5>8 <[5+] _+> r4. <6>8
+  \bo <[5]>8 \bc <[6]>4. <6>4 <7>8 <6> %25
+  <4> <_+> <6 5>2 <5 4>8 <\t _+>
+  r2. <6 5>8 <_+>
+  r4 <6 5>2 <6>4
+  <7>8 <6> <_+> <6> r2
+  <5 4>8 <\t _!> r2. %30
+  r2 <5 2>8 <6> <7> <6>
+  <_+>4. <6>4 q4.
+  <_+> <6>8 <6 5>4 <_+>
+  r1
+  <6>8 <6 5> <5 4> <\t _+> r2 %35 finis
+}
