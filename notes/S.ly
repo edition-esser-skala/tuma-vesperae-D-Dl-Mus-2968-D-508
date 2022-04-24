@@ -180,3 +180,91 @@ ConfiteborSopranoLyrics = \lyricmode {
   men, %45
   a -- men, a -- men. %46 finis
 }
+
+BeatusSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoBeatus
+    r8 \mvTr c'\fE^\tutti h8. h16 c4 r8 g
+    e4 a8 a h! h a8. a16
+    a8 d4 f8 h, h h h
+    c c c([ h)] c4 r
+    r8 \mvTr g4\pE^\solo g8 g g fis g16([ a)] %5
+    h4 g8 g fis4 fis8 fis
+    g fis g4 fis r
+    R1
+    r4 r8 h a8. a16 a8 h
+    c4. c8 h a16 g a4 %10
+    g r r2
+    R1
+    r2 r8 \mvTr h\fE^\tutti h h
+    c4 c8 c c4. c8
+    c4 c8 c c8. c16 c8 h! %15
+    c c16 c c8 c h h h h
+    c4. c8 h4 h8 h
+    h4. h8 c4 c8 c
+    c c h8. h16 c4 r
+    R1*3 %22
+    r4 \mvTr a8\pE^\solo a h h h h
+    h h16 h h8 h c8. c16 c4
+    c c8 c h h16 h h8 c %25
+    c \appoggiatura h16 a8 \appoggiatura g8 fis4 e r
+    R1*6 %32
+    r4 \mvTr c'\fE^\tutti c h8 h
+    c c r16 c c c h8 h r4
+    h8 h16 h h8 h a a a a %35
+    a d d d d4 cis
+    cis8 cis cis cis16 cis d8 d d d16 d
+    d8 c16 c h8 a r2
+    \mvTr c8\pE^\solo h16 c d8 c16 h c4. c8
+    h4 r r2 %40
+    R1
+    r2 r4 \mvTr c8\fE^\tutti c
+    h h16 h e8 e a,16([ h)] c8 c([ h)]
+    c4 r r2
+    R1 %45
+    h8 c c([ h)] c4 r\fermata \bar "|." %46 finis
+  }
+}
+
+BeatusSopranoLyrics = \lyricmode {
+  Be -- a -- tus vir qui
+  ti -- met, qui ti -- met Do -- mi --
+  num: In man -- da -- tis e -- ius
+  vo -- let ni -- mis.
+  Ge -- ne -- ra -- ti -- o re -- %5
+  cto -- rum, re -- cto -- rum be --
+  ne -- di -- ce -- tur.
+
+  Mi -- se -- ri -- cors et
+  mi -- se -- ra -- tor et iu -- %10
+  stus.
+
+  Iu -- cun -- dus
+  ho -- mo qui mi -- se --
+  re -- tur et com -- mo -- dat, dis -- %15
+  po -- net ser -- mo -- nes su -- os in iu --
+  di -- ci -- o: Qui -- a
+  in ae -- ter -- num non
+  com -- mo -- ve -- bi -- tur.
+
+  Con -- fir -- ma -- tum est cor %23
+  e -- ius: non com -- mo -- ve -- bi -- tur
+  do -- nec de -- spi -- ci -- at in -- i -- %25
+  mi -- cos su -- os.
+
+  Pec -- ca -- tor vi -- %33
+  de -- bit et i -- ra -- sce -- tur,
+  den -- ti -- bus su -- is fre -- met et ta -- %35
+  be -- scet, et ta -- be -- scet:
+  De -- si -- de -- ri -- um pec -- ca -- to -- rum per --
+  i -- bit, per -- i -- bit.
+  Glo -- ri -- a Pa -- tri et Fi -- li --
+  o %40
+
+  et in
+  sae -- cu -- la sae -- cu -- lo -- rum, a --
+  men,
+  %45
+  a -- men, a -- men. %46 finis
+}

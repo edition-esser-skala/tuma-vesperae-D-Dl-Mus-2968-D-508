@@ -8,6 +8,7 @@
 
 tempoDixit = \tempoMarkup "Moderato"
 tempoConfitebor = \tempoMarkup "Moderato"
+tempoBeatus = \tempoMarkup "Moderato"
 
 
 \include "notes/vl1.ly"

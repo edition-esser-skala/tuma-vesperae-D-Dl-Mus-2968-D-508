@@ -94,3 +94,45 @@ ConfiteborViolinoII = {
     g fis fis4\trill e2\fermata \bar "|." %46 finis
   }
 }
+
+BeatusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoBeatus
+    r8 g'\fE g4 g r8 d
+    cis4 d2 d8-\critnote cis
+    d d'4 f8 h,4^\critnote h
+    c8 c4 h8 c4 r
+    R1*6 %10
+    r16 h'(\fE a g) fis( g e fis) g-! g( f e) d( e c d)
+    e-! e( d c) h( c a h) c( d e d) c( h a g)
+    fis d g h, a g' a, fis' g,8 h' h h
+    c4 c8 c c2
+    c4 c c4. h!8 %15
+    c4. c8 h4. h8
+    c4. c8 h4 h8 h
+    h4. h8 c4 c8 c
+    c4 h c16 e d c h c a h
+    c8 c, r4 r2 %20
+    R1*5 %25
+    r2 r16 g''\fE fis e dis? e cis dis
+    e e d c h c a h c h a g fis4\trill
+    e16 g\pE fis e dis e cis dis e4 r
+    r16 h'' a g fis g e fis g8 g, r4
+    R1 %30
+    r16 e e' fis gis a fis gis a8 a, r4
+    R1
+    r4 c\fE c h
+    c8 g'32( f e d) c8 c h d'32( c h a) \tuplet 3/2 8 { \sbOn g16 d c h a g \sbOff }
+    d' d d d d d d d cis d cis d cis cis cis cis %35
+    d8 d d d d4 cis~
+    cis8 cis cis cis16 cis d8 d d4~
+    d8 c h a r2
+    R1*3 %41
+    r4 g8\fE g e e16 e g8 a
+    g2 f8 g g4
+    g16 e' d c h c a h c c' b a g a f g
+    a a g f e f d e f g a g f e d c %45
+    h g c e, d c' d, h' c,4 r\fermata \bar "|." %46 finis
+  }
+}

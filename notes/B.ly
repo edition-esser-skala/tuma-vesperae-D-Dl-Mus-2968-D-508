@@ -162,3 +162,87 @@ ConfiteborBassoLyrics = \lyricmode {
   men, %45
   a -- men, a -- men. %46 finis
 }
+
+BeatusBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoBeatus
+    r8 \mvTr c'\fE^\tutti g8. g16 c,4 r8 b
+    a2 gis4 a8. a16
+    d4 r r8 g!4 f8
+    e c g'([ g,)] c4 r
+    R1*2 %6
+    r4 \mvTr g8\pE^\soloE g d' d16 e fis8 d
+    g4 e8 h c c16 c d8. d16
+    g,4 r r2
+    R1*3 %12
+    r2 r8 \mvTr g'\fE^\tutti g g
+    c4 c,8 c' b4. b8
+    a4 g8 f c'8. c,16 c8 g' %15
+    e e16 e d8 c g' g, g' g
+    g4 fis g g8 g
+    f4. f8 e4 e8 e
+    f a g8. g16 c,4 \mvTr g'8\pE^\solo g
+    g8. g16 g8 f e c e fis %20
+    g g, r4 c8 c d4
+    g, r r2
+    R1
+    r8 g' fis e a8. a16 a4
+    a fis8 e dis dis16 dis e8 c %25
+    a a h4 e, r
+    R1*6 %32
+    r4 \mvTr a'\fE^\tutti d, g8 g
+    c, c r16 c e c g'8 g, r4
+    gis'8 gis16 gis gis8 gis a16([ b a b] g[ a g a] %35
+    f8) d f d b4 a
+    a'8^\critnote a a a16 a d,8 e f e16 d
+    e8 a,16 a e8 a r2
+    R1*2 %40
+    r4 \mvTr g'8\fE^\tuttiE g e e16 e a8 e16([ fis)]
+    g8 g, g' e a a16 a e8 f
+    g4 c, f8 e16([ f)] g4
+    c, r r2
+    R1 %45
+    g'8 e f([ g)] c,4 r\fermata \bar "|." %46 finis
+  }
+}
+
+BeatusBassoLyrics = \lyricmode {
+  Be -- a -- tus vir qui
+  ti -- met Do -- mi --
+  num: Vo -- let,
+  vo -- let ni -- mis.
+
+  Et iu -- sti -- ti -- a e -- ius %7
+  ma -- net in sae -- cu -- lum sae -- cu --
+  li.
+
+  Iu -- cun -- dus %13
+  ho -- mo qui mi -- se --
+  re -- tur et com -- mo -- dat, dis -- %15
+  po -- net ser -- mo -- nes su -- os in iu --
+  di -- ci -- o: Qui -- a
+  in ae -- ter -- num non
+  com -- mo -- ve -- bi -- tur. In me --
+  mo -- ri -- a ae -- ter -- na e -- rit %20
+  iu -- stus: Non ti -- me --
+  bit.
+
+  Non com -- mo -- ve -- bi -- tur
+  do -- nec de -- spi -- ci -- at in -- i -- %25
+  mi -- cos su -- os.
+
+  Pec -- ca -- tor vi -- %33
+  de -- bit et i -- ra -- sce -- tur,
+  den -- ti -- bus su -- is fre -- %35
+  met et ta -- be -- scet:
+  De -- si -- de -- ri -- um pec -- ca -- to -- rum per --
+  i -- bit, per -- i -- bit.
+
+  Et in sae -- cu -- la sae -- cu -- %41
+  lo -- rum, et in sae -- cu -- la sae -- cu --
+  lo -- rum, a -- men, a --
+  men,
+  %45
+  a -- men, a -- men. %46 finis
+}

@@ -195,3 +195,99 @@ ConfiteborTenoreLyrics = \lyricmode {
   men, %45
   a -- men, a -- men. %46 finis
 }
+
+BeatusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoBeatus
+    r8 \mvTr e\fE^\tutti d8. d16 e4 r8 d
+    cis4 d8 d d d d cis
+    d4 r r8 d4 d8
+    e e d4 e r
+    r2 r4 \mvTr c8.\pE^\solo c16 %5
+    h4 d8 c16([ h)] a8. a16 a8 a
+    h a h4 a r
+    d e8 d e c16 h a8. a16
+    g4 r r2
+    R1*3 %12
+    r2 r8 \mvTr d'\fE^\tutti d d
+    e4 e8 e e4. e8
+    f4 f8 f f8. e16 e8 d %15
+    e e16 e e8 e d d d d
+    e4 d d d8 d
+    d4. d8 e4 e8 e
+    d c d8. d16 e4 r
+    r2 \mvTr c8\pE^\solo c c c %20
+    h c d c16([ h)] e8 c a4
+    g r r2
+    r4 d'8 d dis dis dis dis
+    e e r4 r2
+    R1*2 %26
+    r2 r4 r8 h
+    h e, r a h h c8. c16
+    h4 r8 c d c16 h c8 d
+    e4 d8 e c h16 h c8. c16 %30
+    h8 h4 h8 e16([ c)] h([ a)] d([ gis,)] a([ h)]
+    c8 d e f h,4. h8
+    a4 \mvTr e'\fE^\tutti f d8 d
+    e e r16 e e e d8 d r4
+    d8 d16 d d8 d cis16([ d cis d] cis8) cis %35
+    d d d d d4 e
+    e8 e e e16 e f8 f f f16 f
+    e8 e16 e e8 e r2
+    r \mvTr e8\pE^\solo e e e
+    d h e8. e16 d8 d e d %40
+    c4 h r \mvTr c8\fE^\tutti c
+    h h16 h e8 e c c e e
+    d4 c c8 e d4
+    e r r2
+    R1 %45
+    d8 e d4 e r\fermata \bar "|." %46 finis
+  }
+}
+
+BeatusTenoreLyrics = \lyricmode {
+  Be -- a -- tus vir qui
+  ti -- met, qui ti -- met Do -- mi --
+  num: In man --
+  da -- tis ni -- mis.
+  Glo -- ri -- %5
+  a et di -- vi -- ti -- ae in
+  do -- mo e -- ius:
+  Ma -- net in sae -- cu -- lum sae -- cu --
+  li.
+
+  Iu -- cun -- dus %13
+  ho -- mo qui mi -- se --
+  re -- tur et com -- mo -- dat, dis -- %15
+  po -- net ser -- mo -- nes su -- os in iu --
+  di -- ci -- o: Qui -- a
+  in ae -- ter -- num non
+  com -- mo -- ve -- bi -- tur.
+  Ab au -- di -- ti -- %20
+  o -- ne ma -- la non ti -- me --
+  bit.
+  Con -- fir -- ma -- tum est cor
+  e -- ius.
+
+  Dis -- %27
+  per -- sit de -- dit pau -- pe -- ri --
+  bus: Iu -- sti -- ti -- a e -- ius
+  ma -- net in sae -- cu -- lum sae -- cu -- %30
+  li: Cor -- nu e -- ius ex -- al --
+  ta -- bi -- tur in glo -- ri --
+  a. Pec -- ca -- tor vi --
+  de -- bit et i -- ra -- sce -- tur,
+  den -- ti -- bus su -- is fre -- met, %35
+  fre -- met et ta -- be -- scet:
+  De -- si -- de -- ri -- um pec -- ca -- to -- rum per --
+  i -- bit, per -- i -- bit.
+  Si -- cut e -- rat
+  in prin -- ci -- pi -- o et nunc et %40
+  sem -- per et in
+  sae -- cu -- la sae -- cu -- lo -- rum, a -- men,
+  a -- men, a -- men, a --
+  men,
+  %45
+  a -- men, a -- men. %46 finis
+}
