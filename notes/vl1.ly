@@ -260,3 +260,48 @@ LaudateDominumViolinoI = {
     a\breve*1/2\fermata \bar "|." %101 finis
   }
 }
+
+MagnificatViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoMagnificat
+    r4 e'\fE e4. e8
+    e2 a,,16 cis cis e e a a cis
+    e4. e8 fis4 e~ \noBreak
+    e dis e2\fermata \bar "||"
+    \tempoMagnificatB r8 e e4 e2 \noBreak %5
+    e4 \tuplet 3/2 8 { a16 h cis } cis,8-! d16( cis) d8-! \tuplet 3/2 8 { gis16 a h } h,8-!
+    cis16( h) cis8 h4 cis4. a8
+    a gis fis4\trill e \tuplet 3/2 8 { e'16 fis gis } gis,8-!
+    a16( gis) a8-! \tuplet 3/2 8 { dis16 e fis } fis,8-! gis16( fis) gis8-! r4
+    r8 \tuplet 3/2 8 { gis'16\pE a h } gis,4 r2 %10
+    R1
+    r8 \tuplet 3/2 8 { cis16 d e } cis,8-! r r2
+    r4 d'2\fE cis8 h
+    h2 a4 r
+    R1*6 %20
+    r2 r4 cis8\fE cis
+    cis4 d eis,4. eis8
+    fis4 cis'8 cis d8. d16 d4
+    d4. d8 cis8. cis16 cis4
+    cis h8 a gis2 %25
+    a8 h cis4 cis \tuplet 3/2 8 {  fis16 gis a } a,8-!
+    \once \slurDashed h16( a) h8-\parenthesize-! \tuplet 3/2 8 { eis16 fis gis } gis,8-\parenthesize-! a8.( gis32 fis) gis4\trill
+    fis r r2
+    R1*5 %33
+    r8 cis'\fE cis cis cis4 cis8 cis
+    cis4. cis8 d4 d8 d %35
+    d8. d16 d8 d d d16 h a4
+    a \tuplet 3/2 8 { d16 e fis } fis,8-! \once \slurDashed g16( fis) g8-\parenthesize-! \tuplet 3/2 8 { cis16 d e } e,8-!
+    \once \slurDashed fis16( e) fis8-\parenthesize-! r4 r2
+    R1*8 %46
+    r2 r8 gis\fE a a
+    a4 gis e'8 e a, gis16 a
+    h8 a16 h cis8 a cis4. h8
+    a4 h8 gis16 a h4 cis8 h16 cis %50
+    d4 e8 cis cis8. cis16 h4
+    a h h8 cis h4
+    a \tuplet 3/2 8 { a'16 h cis } cis,8-\parenthesize-! d16( cis) d8 \tuplet 3/2 8 { gis16 a h } h,8-\parenthesize-!
+    cis h16 a h4\trill a r\fermata \bar "|." %54 finis
+  }
+}

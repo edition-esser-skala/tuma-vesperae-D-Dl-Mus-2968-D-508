@@ -512,3 +512,97 @@ LaudateDominumBassoLyrics = \lyricmode {
 
   men. %101 finis
 }
+
+MagnificatBasso = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4 \autoBeamOff \tempoMagnificat
+    r4 \mvTr a'\fE^\tuttiE a4. a8
+    a,2 r
+    r8 a'4 a16 a dis,4 e \noBreak
+    fis4. fis8 e2\fermata \bar "||"
+    \tempoMagnificatB r8 a a e cis a e' fis16 gis \noBreak %5
+    a8 a, r4 r2
+    r8 a' gis e r4 a8 fis
+    dis e h4 e, r
+    R1*4 %12
+    r4 \mvTr d'8\fE^\tuttiE d e8. e16 a,8 d
+    e2 a,4 r
+    R1*2 %16
+    r4 \mvTr fis'8\fE^\tutti fis fis4 a
+    his,4. his8 cis4 a
+    fis h h a8 gis
+    a fis d' h fis'4 fis %20
+    fis4. fis8 e!4 eis
+    fis h h h8 h
+    a a fis fis h8. h16 h4
+    gis4. gis8 a8. a16 a8 a,
+    h2 cis4 cis %25
+    cis2 fis,4 r
+    R1*2
+    r2 r8 \mvTr a'\pE^\solo gis e
+    r a fis d r a' e4 %30
+    a, r r2
+    R1*2
+    r8 \mvTr a'\fE^\tutti a a g4 g8 g
+    fis4 fis h h8 h %35
+    h8. h,16 h8 h' g fis16 g a4
+    d, r r2
+    R1*6 %43
+    r8 \mvTr fis\pE^\soloE fis gis a4 a
+    a2. gis4 %45
+    a r r2
+    r r8 \mvTr e\fE^\tuttiE cis a
+    e'4 e r2
+    R1*2 %50
+    r2 a8 a e dis16 e
+    fis8 e16([ fis)] gis8 e gis a e4
+    a, r r2
+    r4 e' a, r\fermata \bar "|." %54 finis
+  }
+}
+
+MagnificatBassoLyrics = \lyricmode {
+  Ma -- gni -- fi --
+  cat
+  a -- ni -- ma me -- a
+  Do -- mi -- num,
+  et ex -- sul -- ta -- vit spi -- ri -- tus %5
+  me -- us
+  in De -- o sa -- lu --
+  ta -- ri me -- o.
+
+  O -- mnes ge -- ne -- ra -- ti -- %13
+  o -- nes.
+
+  Et mi -- se -- ri -- %17
+  cor -- di -- a, mi --
+  se -- ri -- cor -- di -- a
+  e -- ius, et mi -- se -- ri -- %20
+  cor -- di -- a, mi --
+  se -- ri -- cor -- di -- a
+  e -- ius a pro -- ge -- ni -- e
+  in pro -- ge -- ni -- es ti --
+  men -- ti -- bus %25
+  e -- um.
+
+  Dis -- per -- sit, %29
+  dis -- per -- sit su -- per -- %30
+  bos.
+
+  E -- su -- ri -- en -- tes im -- %34
+  ple -- vit bo -- nis et %35
+  di -- vi -- tes di -- mi -- sit in -- a --
+  nes.
+
+  Ad pa -- tres no -- stros, %44
+  A -- bra -- %45
+  ham.
+  Et nunc et
+  sem -- per
+
+  et in sae -- cu -- la %51
+  sae -- cu -- lo -- rum, a -- men, a --
+  men,
+  a -- men. %54 finis
+}

@@ -11,6 +11,8 @@ tempoConfitebor = \tempoMarkup "Moderato"
 tempoBeatus = \tempoMarkup "Moderato"
 tempoLaudatePueri = \tempoMarkup "[Tempo deest]"
 tempoLaudateDominum = \tempoMarkup "Alla breve"
+tempoMagnificat = \tempoMarkup "Grave"
+  tempoMagnificatB = \tempoMarkup "Allegro"
 
 
 \include "notes/vl1.ly"

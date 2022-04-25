@@ -554,3 +554,105 @@ LaudateDominumTenoreLyrics = \lyricmode {
   _ %100
   men. %101 finis
 }
+
+MagnificatTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \major \time 4/4 \autoBeamOff \tempoMagnificat
+    r4 \mvTr cis\fE^\tuttiE cis4. cis8
+    cis2 r
+    r8 cis4 cis16 cis h4 h \noBreak
+    a4. a8 h2\fermata \bar "||"
+    \tempoMagnificatB r8 cis cis h cis cis h h16 h \noBreak %5
+    cis8 cis r4 r2
+    r4 r8 e cis a cis cis
+    h h h4 h r
+    R1*4 %12
+    r4 \mvTr fis'8\fE^\tuttiE fis e8. e16 e8 fis
+    e2 e4 \mvTr cis8\pE^\solo d
+    e h a h gis16([ fis)] e8 r4 %15
+    r8 cis' cis h16([ cis)] d8 h gis4
+    fis r r2
+    r r4 \mvTr cis'8\fE^\tutti cis
+    cis4 d eis,4. eis8
+    fis a a d cis4 a8 a %20
+    gis2 gis4 gis
+    a d cis cis8 cis
+    cis cis cis fis d8. d16 d4
+    h4. h8 cis8. cis16 cis8 cis
+    d2. cis8 h %25
+    a4( gis) fis r
+    R1
+    \mvTr cis'4\pE^\solo gis8 cis a8. gis16 fis8 gis
+    a h16 cis d4 cis r8 e
+    cis a d8. d16 d8 cis h4 %30
+    a r r2
+    R1*2
+    r8 \mvTr e'\fE^\tutti e e e4 e8 e
+    e4 e d d8 d %35
+    d8. d16 d8 d d d16 d d8([ cis)]
+    d4 r r2
+    R1*5 %42
+    r2 \mvTr cis4\pE^\solo cis8 cis
+    a8. gis16 a8 r r cis e d16 cis
+    fis4 d8 cis h4. h8 %45
+    a4 r e'8 e e dis
+    e h cis8. cis16 h8 \mvTr h\fE^\tutti cis cis
+    h4 h r2
+    R1
+    r2 e8 e a, gis16 a %50
+    h8 a16([ h)] cis8 a cis dis e e
+    dis([ cis16 dis)] e4 e8 e e4
+    e r r2
+    r4 e e r\fermata \bar "|." %54 finis
+  }
+}
+
+MagnificatTenoreLyrics = \lyricmode {
+  Ma -- gni -- fi --
+  cat
+  a -- ni -- ma me -- a
+  Do -- mi -- num,
+  et ex -- sul -- ta -- vit spi -- ri -- tus %5
+  me -- us
+  in De -- o sa -- lu --
+  ta -- ri me -- o.
+
+  O -- mnes ge -- ne -- ra -- ti -- %13
+  o -- nes. Qui -- a
+  fe -- cit mi -- hi ma -- gna, %15
+  et san -- ctum no -- men e --
+  ius.
+  Et mi --
+  se -- ri -- cor -- di --
+  a, mi -- se -- ri -- cor -- di -- a %20
+  e -- ius, mi --
+  se -- ri -- cor -- di -- a
+  e -- ius a pro -- ge -- ni -- e
+  in pro -- ge -- ni -- es ti --
+  men -- ti -- bus %25
+  e -- um.
+
+  Fe -- cit po -- ten -- ti -- am in
+  bra -- chi -- o su -- o, dis --
+  per -- sit men -- te cor -- dis su -- %30
+  i.
+
+  E -- su -- ri -- en -- tes im -- %34
+  ple -- vit bo -- nis et %35
+  di -- vi -- tes di -- mi -- sit in -- a --
+  nes.
+
+  Si -- cut lo -- %43
+  cu -- tus est, et se -- mi -- ni
+  e -- ius in sae -- cu -- %45
+  la. Si -- cut e -- rat
+  in prin -- ci -- pi -- o et nunc et
+  sem -- per
+
+  et in sae -- cu -- la %50
+  sae -- cu -- lo -- rum, sae -- cu -- lo -- rum,
+  a -- men, a -- men, a --
+  men,
+  a -- men. %54 finis
+}

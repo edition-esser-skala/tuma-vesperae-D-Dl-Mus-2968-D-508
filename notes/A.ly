@@ -510,3 +510,109 @@ LaudateDominumAltoLyrics = \lyricmode {
   %100
   men. %101 finis
 }
+
+MagnificatAlto = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \autoBeamOff \tempoMagnificat
+    r4 \mvTr e\fE^\tuttiE e4. e8
+    e2 r
+    r8 e4 e16 e fis4 e \noBreak
+    e dis e2\fermata \bar "||"
+    \tempoMagnificatB r8 e e e e e e e16 e \noBreak %5
+    e8 e r4 r2
+    r8 e e gis a4. a8
+    fis e e([ dis)] e4 r
+    R1*4 %12
+    r4 \mvTr a8\fE^\tuttiE a gis8. gis16 a8 a
+    a4( gis) a r
+    r8 \mvTr e\pE^\solo e dis e gis gis fis16([ gis)] %15
+    a([ gis)] a8 fis4. fis8 fis([ eis)]
+    fis4 r r2
+    R1*2
+    r4 \mvTr fis8\fE^\tutti fis fis4 a %20
+    his,4. his8 cis4 gis'
+    gis8([ fis)] fis4 gis gis8 gis
+    fis fis fis fis fis8. fis16 fis4
+    e4. e8 e8. e16 e8 a
+    fis4( gis8[ fis] eis4) eis8 eis %25
+    fis4( eis) fis r
+    R1*3
+    r2 r4 r8 \mvTr e\pE^\solo %30
+    e8. a,16 a8 a' a8. gis16 gis8 gis
+    a gis16 gis a4 gis r
+    r8 e16([ fis)] gis([ e)] fis([ gis)] a8. a16 a8 gis
+    a \mvTr a\fE^\tutti a a a4 a8 a
+    ais4 ais h h8 fis %35
+    fis8. fis16 fis8 fis g g16 g e4
+    fis r r2
+    r8 \mvTr a\pE^\solo a16([ g)] fis([ e)] fis8 e16 d g8 fis16 e
+    fis8([ e)] d r r4 a'8 a
+    a g g4 fis gis %40
+    a8. a16 a8 a gis4 ais
+    h8. h16 h8 h a4 fis
+    fis( gis8[ fis] eis) fis16 fis fis8([ eis)]
+    fis4 r r2
+    R1 %45
+    r4 a8 gis16([ fis)] e8 fis16 gis a4
+    gis r r8 \mvTr e\fE^\tutti e e
+    e4 e r2
+    r a8 a e dis16 e
+    fis8 e16([ fis)] gis8 e gis([ fis16 gis)] a4 %50
+    gis8([ fis)] e4 e8 fis gis8. gis16
+    fis4 e8 e e a a([ gis)]
+    a4 r r2
+    r4 gis a r\fermata \bar "|." %54 finis
+  }
+}
+
+MagnificatAltoLyrics = \lyricmode {
+  Ma -- gni -- fi --
+  cat
+  a -- ni -- ma me -- a
+  Do -- mi -- num,
+  et ex -- sul -- ta -- vit spi -- ri -- tus %5
+  me -- us
+  in De -- o sa -- lu --
+  ta -- ri me -- o.
+
+  O -- mnes ge -- ne -- ra -- ti -- %13
+  o -- nes.
+  Qui po -- tens est, et san -- ctum %15
+  no -- men, no -- men e --
+  ius.
+
+  Et mi -- se -- ri -- %20
+  cor -- di -- a, mi --
+  se -- ri -- cor -- di -- a
+  e -- ius a pro -- ge -- ni -- e
+  in pro -- ge -- ni -- es ti --
+  men -- ti -- bus %25
+  e -- um.
+
+  De -- %30
+  po -- su -- it, de -- po -- su -- it po --
+  ten -- tes de se -- de
+  et ex -- al -- ta -- vit hu -- mi --
+  les. E -- su -- ri -- en -- tes im --
+  ple -- vit bo -- nis et %35
+  di -- vi -- tes di -- mi -- sit in -- a --
+  nes.
+  Su -- sce -- pit Is -- ra -- el pu -- e -- rum
+  su -- um, re -- cor --
+  da -- tus mi -- se -- ri -- %40
+  cor -- di -- ae, mi -- se -- ri --
+  cor -- di -- ae, mi -- se -- ri --
+  cor -- di -- ae su --
+  ae.
+  %45
+  Et Spi -- ri -- tu -- i San -- cto,
+  et nunc et
+  sem -- per
+  et in sae -- cu -- la
+  sae -- cu -- lo -- rum, a -- men, %50
+  a -- men, et in sae -- cu --
+  la sae -- cu -- lo -- rum, a --
+  men,
+  a -- men. %54 finis
+}

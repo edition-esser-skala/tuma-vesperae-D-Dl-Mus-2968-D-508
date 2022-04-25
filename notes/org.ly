@@ -610,3 +610,126 @@ LaudateDominumBassFigures = \figuremode {
   <\t _+>1 %100
   <_+>1 %101 finis
 }
+
+MagnificatOrgano = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4 \tempoMagnificat
+    r4 \mvTr a'\fE-\tutti a2
+    a, r
+    r8 a'4 a8 dis,4 e \noBreak
+    fis fis, e2\fermata \bar "||"
+    \tempoMagnificatB r8 a' a e cis a e' fis16 gis \noBreak %5
+    a8 a, r a' h4 r8 gis
+    a4 gis8 e r4 a8 fis
+    dis e h4 e, r8 e'-\solo
+    fis4 r8 dis e4\pE dis
+    e r8 e16 d cis4 h8 e %10
+    a,4 fis'16 gis a8 e4 e8 d
+    cis4 r a8 h cis4
+    d \mvTr d\fE-\tutti e a,8 d
+    e4 e, a \mvTr a'\pE-\solo
+    gis fis e eis %15
+    fis a, h cis
+    fis, \mvTr fis'8\fE-\tutti-! fis-! fis4-! a-!
+    his,2-! cis4-! a
+    fis h2 a8 gis
+    a fis d' h fis'2 %20
+    fis e!4 eis
+    fis h h2
+    a4 fis h2
+    gis a4 a,
+    h2 cis %25
+    cis fis,4 r8 fis'-\solo
+    gis4 r8 eis fis d h cis
+    fis a\pE  eis cis fis4. e?16 d
+    cis4 h8 e a,4 e'8 gis
+    a4 fis8 d e a,^\critnote e' e, %30
+    a4. a8 e'2
+    a,8 e' a a, e'4 r
+    e d cis8 d e e,
+    a \mvTr a'\fE-\tutti a a g2
+    fis h %35
+    h8. h,16 h8 h' g fis16 g a8 a,
+    d4 r8 d-\solo e4 r8 cis
+    d4 cis8\pE a d fis h, cis
+    d e fis d a'4 a,
+    e' a, d e %40
+    a, h e fis
+    h, cis fis r8 fis,
+    h2 cis
+    fis,4 fis'8 e! a,2
+    d e %45
+    a,8 a' fis gis a gis fis4
+    e a, \mvTr e'\fE-\tutti cis8 a
+    e'2 \clef treble e''8 e a, gis16 a
+    h8 a16 h cis8 a << {
+      cis4.^\critnote h8
+      a4 h8 gis16 a
+    } \\ {
+      a8 a e dis16 e
+      fis8 e16 fis gis8 e
+    } >> \clef "treble_8" e e a, gis16 a %50
+    h8 a16 h cis8 a \clef bass a a e dis16 e
+    fis8 e16 fis gis8 e gis a e4
+    a, r8 a' h4 r8 gis
+    a4 e a, r\fermata \bar "|." %54 finis
+  }
+}
+
+MagnificatBassFigures = \figuremode {
+  r1
+  r
+  r2 <6 5>
+  <7>4 <6\\>2.
+  r2 <6> %5
+  <9>8 <8>4. <9>8 <8>4 <[6]>8
+  <9> <8> <[6]>2.
+  <6 5>4 <5 4>8 <\t _+> r2
+  <9>8 <8>4 \bo <[6 \l]>8 <9> <8> \bc <[6 5]>4
+  r2 <6>4 <7> %10
+  r <6> <6 4>8 <5 3>4.
+  <[6]>2. <6>4
+  r2 <7>4. <6 5>8
+  <5 4>4 <\t 3>2.
+  <6>4 <7>8 <6\\> r4 <6> %15
+  r <6>2 <4>8 <_+>
+  r1
+  r2. <3>4
+  <5> <3> <4+> <5+>8 <6\\>
+  <6>4 <5> q2 %20
+  <4+ 2> <6>4 <\t>
+  <9>8 <8>4. <4+ 2>2
+  <6>1
+  <6 5>
+  <9>4 <8> <9 _+> <8 \t>8 <7 \t> %25
+  <6 4>4 <5 _+>2.
+  <9>8 <8>4 <[6]>8 <9> <[5]> <6 5> <_+>
+  r <6> <6> <[_+]> r2
+  <6>4 <7>2 r8 <6>
+  r4 <6> <7>2 %30
+  r <4>4 <3>
+  r1
+  r4 <2> <6> <5 4>8 <\t 3>
+  r2 <2>
+  <7 _+>1 %35
+  r2 r8 <6> <5 4> <\t 3>
+  r2 <9 _!>8 <8 \t>4 <[6]>8
+  <9> <8> <6>4. <6>8 <6!>8 <\t>
+  r4 <6> <5 4> <\t 3>
+  <5 4> <7!>2 <7 _+>4 %40
+  r <7 _+>2 <7 _+>4
+  <_+> <7 _+> <[_!]>2
+  <5>4 <6>8 <5> <7 _+> <6 4> <5 \t> <\t _+>
+  r4. <5>8 r2
+  r <5 4>4 <\t 3> %45
+  r4 <6>8 \bo <[6]>4 \bc q8 <7> <6\\>
+  r2. <6>4
+  \bo <[4]> \bc <[3]>2.
+  r1
+  r %50
+  <[6]>4 <6> <5 3>8 <6 4+>4.
+  <6\\>4 <6> <[6]> <5 4>8 <\t 3>
+  r2 <9>8 <8>4 <[6]>8
+  <9> <8>2.. %54 finis
+}

@@ -263,3 +263,49 @@ LaudateDominumViolinoII = {
     d\breve*1/2\fermata \bar "|." %101 finis
   }
 }
+
+MagnificatViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoMagnificat
+    r4 cis'\fE cis4. cis8
+    cis2 r8 a,16 cis cis a cis cis'
+    cis4 a2 gis4 \noBreak
+    a2 gis\fermata \bar "||"
+    \tempoMagnificatB r8 a a gis a4 gis8 a16 h \noBreak %5
+    h8 a r cis-! cis( h) r h-!
+    h( a) r gis a2
+    fis8 e4 dis8 e4 r8 gis-\parenthesize-!
+    gis( fis) r fis-\parenthesize-! fis( e) r4
+    r8 \tuplet 3/2 8 { e'16\pE fis gis } e,4 r2 %10
+    R1
+    r8 \tuplet 3/2 8 { a16 h cis } a,8-\parenthesize-! r r2
+    r4 fis'8\fE a gis4 a~
+    a gis a r
+    R1*5 %19
+    r4 fis8\fE fis fis4 a %20
+    his,4. his8 cis4 gis'~
+    gis8 fis fis4 gis2
+    fis4 fis fis8. fis16 fis4
+    e4. e8 e4 a
+    fis gis8 fis eis4 eis %25
+    fis eis fis r8 a~
+    a gis r gis4 fis eis8
+    fis4 r r2
+    R1*5 %33
+    r8 a\fE a a a4 a8 a
+    ais2 h4 h8 fis %35
+    fis8. fis16 fis8 fis g g e4
+    fis r8 fis-\parenthesize-! fis( e) r e-\parenthesize-!
+    e( d) r4 r2
+    R1*8 %46
+    r2 r8 e\fE e e
+    e4 e r2
+    r a8 a e dis16 e
+    fis8 e16 fis gis8 e gis fis16 gis a4 %50
+    gis8 fis e4 e8 fis gis4
+    fis e8 e e a4 gis8
+    a4 r8 cis-\parenthesize-! cis( h) r h~
+    h e,16 a gis4 a r\fermata \bar "|." %54 finis
+  }
+}
